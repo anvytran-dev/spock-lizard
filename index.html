@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+        <meta name="keywords" content="one, two, three">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Rock-Paper-Scissors-Lizard-Spock</title>
+
+		<!-- external CSS link -->
+		<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+    
+	<body>
+        <section class = "secAllContent">
+
+            <section class = "secTitle">
+                <h1 class = "tracking-in-expand">Rock-Paper-Scissors-Lizard-Spock</h1>
+            </section>
+
+            <section class = "secResults">
+
+                <section class = "secChoices">
+                    <section class = 'secHuman'>
+                        <h4 class = "h4Choices">My Choice</h4>
+                        <img class = "imgC" id = "playerChoiceImage" alt="">
+                    </section>
+
+                    <section class = "secComputer">
+                        <h4 class = "h4Choices"> Computer Choice</h4>
+                        <img class = "imgC" id = "computerChoiceImage" alt="">
+                    </section>
+                </section>
+
+                <h3 id = "reportWinner"></h3>
+                
+                <h3 id = "summaryChoice"></h3>
+                
+            </section>
+
+           <section class = "secChoiceAndScore">
+            
+                <section class = "secPlayerChoice">
+                    
+                    <table class = "tablePlayerChoices">
+                        <h3 class = "h3ChoseOne">Choose One!</h3>
+                        <tr>
+                                <th><img class = "imgChoices" id = "imgRock" src = "pic/rock.png" value = "rock" data-number = '0'></th>
+                                <th><img class = "imgChoices" id = "imgPaper" src = "pic/paper.png" value = "paper" data-number = '1'></th>
+                                <th><img class = "imgChoices" id = "imgScissors" src = "pic/scissors.png" value = "scissors" data-number = '2'></th>
+                                <th><img class = "imgChoices" id = "imgLizard" src = "pic/lizard.png" value = "lizard" data-number = '3'></th>
+                                <th><img class = "imgChoices" id = "imgSpock" src = "pic/spock.jpeg" value = "spock" data-number = '4'></th>
+                            </tr>
+
+                            <tr>
+                                <th>Rock</th>
+                                <th>Paper</th>
+                                <th>Scissors</th>
+                                <th>Lizard</th>
+                                <th>Spock</th>
+                            </tr>
+                        </table>
+                </section>
+
+                <section class = "secScoreboard">
+                        <table>
+                            <h3 class = "h3Score">Score</h3>
+
+                            <tr>
+                                <th>My Score</th>
+                                <th>Computer Score</th>
+                                <th>Draw</th>
+                            </tr>
+
+                            <tr>
+                                <th id = "humanScore">0</th>
+                                <th id = "computerScore">0</th>
+                                <th id = "drawScore">0</th>
+                            </tr>
+
+                        </table>
+                </section>
+           </section>
+
+           <section class = "secButton">
+               <button class = "buttonReset">Reset</button>
+           </section>
+
+        </section>
+
+
+        
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+
+
